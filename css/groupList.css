@@ -1,0 +1,169 @@
+*{-webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; user-select: none;}
+
+.groupListWrapperOuter{
+	border-radius: 15px;
+	-moz-box-shadow:inset 0px 4px 20px rgba(0,0,0,0.3);
+	-webkit-box-shadow:inset 0px 4px 20px rgba(0,0,0,0.3);
+	box-shadow:inset 0px 4px 20px rgba(0,0,0,0.3);
+	background-color: #dadada;
+	font-family: "League Gothic";
+	font-size: 2em;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.groupListScroller{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+.groupList{
+
+}
+
+.groupList ul{
+}
+
+.groupListHeader{
+	color: #fff;
+	background-color: #5ca1b9;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1;
+	box-shadow: 0px 1px 0px rgba(0,0,0,0.5), 0px 2px 0px rgba(255,255,255,0.75);
+	z-index: 100;
+    -webkit-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, .5);    
+    box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, .5);
+	height: 40px;
+}
+
+
+.groupListHeader b{
+	padding: 5px 10px 0;
+	color: rgba(255,255,255,0.9);
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.5);
+	display: block;
+}
+
+.active .groupListHeader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+}
+
+.groupListItem{
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,.2);
+	box-shadow: 0px 1px 0px rgba(255,255,255,0.8);
+	width: 95%;
+	height: 60px;
+	margin: 10px auto;
+	background-color: #ebebeb;
+	text-align: center;
+	color: #5ca1b9;
+	position: relative;
+	font-size: .8em;
+	overflow: hidden;
+}
+
+.groupListItem{
+	text-align: left;
+}
+
+.groupListItem.on{
+	background-color: #5ca1b9;
+	background-image: -moz-repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255,255,255,.025) 5px, rgba(255,255,255,.025) 10px);
+	background-position: left top;
+	color: #fff;
+}
+
+.groupListItem.on .groupListButtonSubinfo{
+	background-color: #ebebeb;
+	color: #5ca1b9;
+	display: inline-block;
+}
+
+
+.groupListItem.noSubtitle .groupListButtonPlaceholder, .groupListItem.noSubtitle .groupListButtonSubinfo{
+	display: none;
+}
+
+.groupListItem .groupListButtonTitle{
+	position: relative;
+	/*box-shadow: 0px 1px 0px rgba(0,0,0,0.25), 0px 2px 0px rgba(255,255,255,.8);*/
+	width: 70%;
+	padding-bottom: 2px;
+	top: 7px;
+}
+
+.groupListItem .groupListButtonTitle{
+	font-size: 1.3em;
+	margin-left: 11px;
+}
+
+.groupListItem.noSubtitle .groupListButtonTitle{
+	font-size: 1.4em;
+	top: 23%;
+	margin-left: 11px;
+	box-shadow: none;
+}
+
+
+.groupListItem div.groupListButtonSubinfo{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-radius: 7px 0px 0px 0px;
+	background-color: #5ca1b9;
+	display: block;
+	color: #ebebeb;
+	font-size: .7em;
+	width: 30%;
+	height: 20px;
+	padding-top: 5px;
+	text-align: center;
+	border-top: 1px solid rgba(255,255,255,0.8);
+	border-left: 1px solid rgba(255,255,255,0.8);	
+	box-shadow: -1px -1px 0px rgba(0,0,0,0.3);
+}
+
+.groupListItem b.groupListButtonPlaceholder{
+	display: block;
+	position: absolute;
+	border-radius: 2px;
+	height: 1px;
+	width: 65%;
+	bottom: 22%;
+	margin-left: 11px;
+	box-shadow: 0 1px 0px rgba(0,0,0,0.2), 0 2px 0 rgba(255,255,255, 1);
+}
+
+.groupListIndexWrapper{
+	height: 100%;
+	position: relative;
+}
+
+nav.groupListIndex{
+	position: absolute;
+	right: -7.5%;
+	top: 0;
+	height: 100%;
+	font-size: 1em;
+	color: #5ca1b9;
+    z-index: 100000;
+    font-family: "Ostrich Regular";
+}
+nav.groupListIndex b.groupListIndexLetter{
+	display: block;
+	text-align: center;
+	top: 2%;
+	position: relative;
+}
+
+
+

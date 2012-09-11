@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/groupList.css" />	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.kinetic.js"></script>	
+		<script type="text/javascript" src="scripts/jquery.groupList.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var options = {
+					"indexOn":false,
+					"subTitleOn":true
+				}
+				$("#eventsScroller").groupList(options);
+			});
+		</script>
+
+		<style type="text/css">
+			#eventsScroller{
+				height: 600px;
+				width: 400px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="eventsPane">
+			<div id="eventsWrapper">
+				<div id="eventsScroller">
+					<ul data-listname="Group Title">
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+					</ul>
+					<ul data-listname="Group Title">
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+					</ul>
+					<ul data-listname="Group Title">
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+					</ul>
+					<ul data-listname="Group Title">
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+					</ul>
+					<ul data-listname="Group Title">
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+					</ul>
+					<ul data-listname="Group Title">
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+						<li class="classButton" data-buttonSub="Subtitle" data-roomID="1041">SampleTitle</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
